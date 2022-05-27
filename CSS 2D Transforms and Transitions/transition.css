@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: navy;
+    font-size: 20px;
+    color: white;
+    transition: width 2s, height 2s, background-color 2s, color 2s;
+    transition-timing-function: cubic-bezier(5,6,4,3);
+}
+
+div:hover{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    color: black;
+}
+
